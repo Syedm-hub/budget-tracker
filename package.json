@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "budget-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syedm-hub/budget-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syedm-hub/budget-tracker/issues"
+  },
+  "homepage": "https://github.com/Syedm-hub/budget-tracker#readme"
+}
