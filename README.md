@@ -23,7 +23,7 @@ This appication will allow user to add expenses and deposition of their budget w
 
 ## Links
 
-[1]: https://github.com/Syedm-hub/budget-tracker "Github"
+- Github: https://github.com/Syedm-hub/budget-tracker
 
 ## Features
 
