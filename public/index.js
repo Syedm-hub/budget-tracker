@@ -5,7 +5,6 @@ let myChart;
 fetch(`/api/transaction`)
   .then((response) => response.json())
   .then((data) => {
-    //saving data into global variable
     transactions = data;
     populateTotal();
     populateTable();
@@ -122,7 +121,6 @@ function sendTransaction(isAdding) {
       }
     })
     .catch((err) => {
-      // fetch failed, so save in indexed db
       saveRecord(transaction);
 
       // clear form
